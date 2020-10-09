@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  background-color: var(--slack-color);
+  color: #fff;
+}
+
+.header_left {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.header_left > .MuiSvgIcon-root {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.header_search {
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  background-color: #421f44;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+
+.header_search > input {
+  background-color: transparent;
+  border: none;
+  min-width: 35vw;
+  color: #fff;
+  height: 20px;
+}
+
+.header_search > input:focus {
+  outline: none;
+}
+
+.header_right {
+  flex: 0.3;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header_right > .MuiSvgIcon-root {
+  margin-right: 30px;
+}
